@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="66d5d73e-8610-441b-90a0-6385cd078d02" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ncErdyNu3VUBoOztTDW9BkwATa" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JSON" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.16.1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/js" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Andrew\####\ii\TFG\EjemploMapa\public\js" />
+      <recent name="C:\Users\Andrew\####\ii\TFG\EjemploMapa\public\css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Andrew\####\ii\TFG\EjemploMapa\public\css" />
+      <recent name="C:\Users\Andrew\####\ii\TFG\EjemploMapa" />
+      <recent name="C:\Users\Andrew\####\ii\TFG\EjemploMapa\public\js" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/app.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.app.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="66d5d73e-8610-441b-90a0-6385cd078d02" name="Default Changelist" comment="" />
+      <created>1611681178061</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611681178061</updated>
+      <workItem from="1611681181749" duration="8856000" />
+      <workItem from="1612089098138" duration="1213000" />
+      <workItem from="1612092018970" duration="6392000" />
+      <workItem from="1612199056024" duration="2907000" />
+      <workItem from="1612202006202" duration="1773000" />
+      <workItem from="1612220975493" duration="7699000" />
+      <workItem from="1612304082208" duration="13040000" />
+      <workItem from="1612317622395" duration="9000" />
+      <workItem from="1612347191144" duration="10807000" />
+      <workItem from="1612360796630" duration="4794000" />
+      <workItem from="1612372312672" duration="6980000" />
+      <workItem from="1612426681548" duration="4312000" />
+      <workItem from="1612460559649" duration="1125000" />
+      <workItem from="1612477847811" duration="17350000" />
+      <workItem from="1612513936297" duration="10263000" />
+      <workItem from="1612531091944" duration="426000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

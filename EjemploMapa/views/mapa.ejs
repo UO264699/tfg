@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Mapa</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"/>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/leaflet-sidebar.css"/>
+    <link rel="stylesheet" href="/css/mapa.css"/>
+
+
+</head>
+
+
+<body >
+
+
+<form method="post" >
+
+    <input id="lat" type="hidden" name = "latitud">
+
+    <input id="lon" type="hidden" name = "longitud">
+
+    <button type="submit" class = "btn-guardar" hidden >GUARDAR</button>
+</form>
+
+
+<div id="sidebar" class="leaflet-sidebar collapsed">
+
+    <!-- nav tabs -->
+    <div class="leaflet-sidebar-tabs">
+        <!-- top aligned tabs -->
+        <ul role="tablist">
+            <li><a href="#home" role="tab" ><i class="fa fa-bars active"></i></a></li>
+            <li ><a href="#infoid" role="tab" aria-disabled="true"><i class="fa fa-info-circle"></i></a></li>
+        </ul>
+
+    </div>
+
+    <!-- panel content -->
+    <div class="leaflet-sidebar-content">
+        <div class="leaflet-sidebar-pane" id="home">
+            <h1 class="leaflet-sidebar-header">
+
+                <span class="leaflet-sidebar-close"><i class="fa fa-caret-left"></i></span>
+            </h1>
+
+            <div id="listaReservas" class="list-group">
+
+                <li id="reservaLista" class="list-group-item"><a class="btn btn-light  btn-lg btn-block" id="enlaceReserva" href="javascript:volar('Parque Natural Fuentes del Narcea')" role="button"> <h4 class="list-group-item-heading">Parque Natural Fuentes del Narcea</h4> </a></li>
+                <li id="reservaLista" class="list-group-item"><a class="btn btn-light  btn-lg btn-block" id="enlaceReserva" href="javascript:volar('Parque Natural de Somiedo')" > <h4 class="list-group-item-heading">Parque Natural de Somiedo</h4> </a></li>
+                <li id="reservaLista" class="list-group-item"><a class="btn btn-light  btn-lg btn-block" id="enlaceReserva" href="javascript:volar('Parque Natural de Babia y Luna')" > <h4 class="list-group-item-heading">Parque Natural de Babia y Luna</h4> </a></li>
+                <li id="reservaLista" class="list-group-item"><a class="btn btn-light  btn-lg btn-block" id="enlaceReserva" href="javascript:volar('Parque Natural de las Ubiñas y la Mesa')" > <h4 class="list-group-item-heading">Parque Natural de las Ubiñas y la Mesa</h4> </a></li>
+                <li id="reservaLista" class="list-group-item"><a class="btn btn-light  btn-lg btn-block" id="enlaceReserva" href="javascript:volar('Parque Natural de Redes')" > <h4 class="list-group-item-heading">Parque Natural de Redes</h4></a></li>
+                <li id="reservaLista" class="list-group-item"><a class="btn btn-light  btn-lg btn-block" id="enlaceReserva" href="javascript:volar('Parque Natural de Ponga')" > <h4 class="list-group-item-heading">Parque Natural de Ponga</h4></a></li>
+                <li id="reservaLista" class="list-group-item"><a class="btn btn-light  btn-lg btn-block" id="enlaceReserva" href="javascript:volar('Parque Nacional de Picos de Europa')" > <h4 class="list-group-item-heading">Parque Nacional de Picos de Europa</h4> </a></li>
+
+            </div>
+
+        </div>
+
+        <div class="leaflet-sidebar-pane" id="infoid">
+            <h1 class="leaflet-sidebar-header">
+                Información
+                <span class="leaflet-sidebar-close"><i class="fa fa-caret-left"></i></span>
+            </h1>
+
+            <div id = "info" class="container-md"></div>
+        </div>
+
+        <div class="leaflet-sidebar-pane" id="messages">
+            <h1 class="leaflet-sidebar-header">Messages<span class="leaflet-sidebar-close"><i class="fa fa-caret-left"></i></span></h1>
+        </div>
+    </div>
+</div>
+
+        <div id="map"></div>
+
+        <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+        crossorigin=""></script>
+
+        <script src="/js/marcadores.js"></script>
+
+        <script src="/js/leaflet-sidebar.js"></script>
+
+        <script src="/js/highlight.js"></script>
+
+        <script src="/js/mapa.js"></script>
+
+
+
+    </body>
+
+
+
+</html>
